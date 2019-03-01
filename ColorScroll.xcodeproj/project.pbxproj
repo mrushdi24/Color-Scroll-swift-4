@@ -15,6 +15,9 @@
 		523B24BA2229D89100F25B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523B24B82229D89100F25B20 /* LaunchScreen.storyboard */; };
 		523B24C52229D89100F25B20 /* ColorScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B24C42229D89100F25B20 /* ColorScrollTests.swift */; };
 		523B24D02229D89100F25B20 /* ColorScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B24CF2229D89100F25B20 /* ColorScrollUITests.swift */; };
+		523B24DE2229DA2900F25B20 /* AllColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B24DD2229DA2900F25B20 /* AllColor.swift */; };
+		523B24DF2229DA2900F25B20 /* AllColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B24DD2229DA2900F25B20 /* AllColor.swift */; };
+		523B24E02229DA2900F25B20 /* AllColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523B24DD2229DA2900F25B20 /* AllColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		523B24CB2229D89100F25B20 /* ColorScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		523B24CF2229D89100F25B20 /* ColorScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScrollUITests.swift; sourceTree = "<group>"; };
 		523B24D12229D89100F25B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523B24DD2229DA2900F25B20 /* AllColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				523B24AC2229D89100F25B20 /* AppDelegate.swift */,
 				523B24AE2229D89100F25B20 /* ViewController.swift */,
 				523B24B02229D89100F25B20 /* Main.storyboard */,
+				523B24DD2229DA2900F25B20 /* AllColor.swift */,
 				523B24B62229D89100F25B20 /* Assets.xcassets */,
 				523B24B82229D89100F25B20 /* LaunchScreen.storyboard */,
 				523B24BB2229D89100F25B20 /* Info.plist */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				523B24B52229D89100F25B20 /* ColorScroll.xcdatamodeld in Sources */,
+				523B24DE2229DA2900F25B20 /* AllColor.swift in Sources */,
 				523B24AF2229D89100F25B20 /* ViewController.swift in Sources */,
 				523B24AD2229D89100F25B20 /* AppDelegate.swift in Sources */,
 			);
@@ -270,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				523B24C52229D89100F25B20 /* ColorScrollTests.swift in Sources */,
+				523B24DF2229DA2900F25B20 /* AllColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				523B24D02229D89100F25B20 /* ColorScrollUITests.swift in Sources */,
+				523B24E02229DA2900F25B20 /* AllColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = App.Elkhateeb.photonic.ColorScroll;
+				PRODUCT_BUNDLE_IDENTIFIER = App.ColorScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = App.Elkhateeb.photonic.ColorScroll;
+				PRODUCT_BUNDLE_IDENTIFIER = App.ColorScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
